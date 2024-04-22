@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo da Média</title>
+</head>
+<body>
+    <script>
+       function calcularMedia(numeros){
+        let soma = 0;
+
+        for (let i = 0; i < numeros.length; i++){
+            soma += numeros[i];
+        
+        }
+        return soma / numeros.length;
+           }
+           console.log(calcularMedia([20, 30, 40, 50]));
+    </script>
+</body>
+</html>
